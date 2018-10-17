@@ -1,0 +1,231 @@
+/* global */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0a0a0a;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+input:not([type="submit"]) {
+    background-color: rgb(231, 231, 231);
+    border: none;
+    box-shadow: inset 0 0 5px #8b8b8b;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff !important;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+a {
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+.important {
+    font-weight: bolder;
+}
+
+.danger {
+    color: rgb(153, 1, 1);
+}
+
+/* login */
+
+
+#login-body {
+    background-color: rgb(231, 231, 231);
+}
+
+#login-container {
+    text-align: center;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    
+}
+
+#login-form-box {
+    border-radius: 5px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 0 5px #d4d4d4;
+
+}
+
+#login-form-box div {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+#login-form-box #send-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#login-form-box #send-section div {
+    line-height: 35px;
+    font-size: 13px;
+}
+
+/* panels */
+
+header div.container-wrapper {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.container {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#nav-section  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+#nav-section div p {
+    margin: 0;
+}
+
+#nav-section nav a, #nav-section div * {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid transparent;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#nav-section nav *:hover, #nav-section div a:hover {
+    border-bottom: 1px solid black;
+}
+
+section.container-wrapper {
+    padding-top: 140px;
+    padding-bottom: 330px;
+}
+
+section .container {
+    text-align: center;
+}
+
+section .container article {
+    width: 350px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+}
+
+footer.container-wrapper {
+    text-align: center;
+}
+
+section .container #configuration-article #color-list{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    flex-grow: 10;
+}
+
+section .container #configuration-article #color-list div{
+    height: 75px;
+    margin: 3px;
+    width: 25%;
+}
+
+section .container #configuration-article #color-list div a{
+    display: block;
+    height: 100%;
+    width: 80px;
+    text-decoration: none;
+}
+
+section .container #configuration-article input{
+    width: 98%;
+    margin: 3px;
+}
+
+section .container #gestion-article {
+    width: 650px ;
+}
+
+#utilisateurs-table {
+    width: 100%;
+    border-collapse:  collapse;
+    margin-bottom: 15px;
+}
+
+#utilisateurs-table thead tr th {
+    background-color: grey;
+    color: white;
+}
+
+#utilisateurs-table tbody tr:nth-child(even) {
+    background-color: rgb(233, 233, 233)
+}
+
+#utilisateurs-table a {
+    color: rgb(0, 0, 151);
+}
+
+#utilisateurs-table thead tr th, #utilisateurs-table tbody tr td {
+    border: 1px solid #aaa;
+}
+
+#ajout-article {
+    width: 400px;
+    height: 300px;
+}
+
+#ajout-article label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+}
+
+#ajout-article input:not([type="submit"]) {
+    display: inline-block;
+    float: left;
+}
