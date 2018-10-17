@@ -1,4 +1,4 @@
-TP7
+SimpleMvc
 ===============
 
 ## Pour se connecter a une base de données
